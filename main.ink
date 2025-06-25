@@ -259,7 +259,7 @@ Some unseen machinery whines behind the shimmering polished-steel scales of the 
             "Let him speak."
             She doesn't budge. <>
         
-    - "You desecrate us! There is no future and there is no past. The sin is in forgetting the now."
+    - "You desecrate us! There is no future and there is no past. The sin is in forgetting the now," says the woman.
     
     
     -> END
