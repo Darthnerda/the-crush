@@ -273,9 +273,9 @@ Some unseen machinery whines behind the shimmering polished-steel scales of the 
 
 = pure
     She is a true believer.
-    * So was I once[]. Even now you wear the cloak of the Adept despite the absence of your faith, and you still remember the agony of the Revoking.
+    * So was I once[]. Even now you wear the cloak of the Adept despite the absence of your faith. You still remember the agony of the Revoking.
         ~ once_believer = true
-    * Fool[], you think. You may have gone through the agony of the Revoking, and wear the cloak of the Adept, but not for a moment did you ever believe, not really.
+    * Fool[], you think. You may have gone through the agony of the Revoking and wear the cloak of the Adept, but not for a moment did you actually believe. Not really.
     - ->->
 
 == the_storyless(->continuation)
@@ -283,7 +283,7 @@ Some unseen machinery whines behind the shimmering polished-steel scales of the 
     - (opts)
     <- continuation
     * {untelling} [Nurmekani]
-        Nurmekani are machine-animals made of pure light. They are what come out the other side of the Animism chamber. It's never been clear even to the Adepts why the Haala do this, but it is never wise to question a Haala. From what little you've gathered, the Haala feel that Nurmekani are pure in a way a human never could be.
+        Nurmekani are machine-animals made of pure light. They are what come out the other side of the Animism chamber. It's never been clear even to the Adepts why the Haala do this, but it is never wise to question a Haala. From what you've gathered, the Haala feel that Nurmekani are pure in a way a human never could be.
         -> opts
     * (religion) [Religion]
         The religion of The Storyless is based on a cosmology with two gods. The falser of the Gods is Bahamut who weaves the universe out of stories, and the truer God is The Storyless who is the primal and divine material from which Bahamut weaves.
