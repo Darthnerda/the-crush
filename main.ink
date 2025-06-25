@@ -273,9 +273,9 @@ Some unseen machinery whines behind the shimmering polished-steel scales of the 
 
 = pure
     She is a true believer.
-    * So was I once[].
+    * So was I once[]. Even now you wear the cloak of the Adept despite the absence of your faith, and you still remember the agony of the Revoking.
         ~ once_believer = true
-    * Fool[], you think.
+    * Fool[], you think. You may have gone through the agony of the Revoking, and wear the cloak of the Adept, but not for a moment did you ever believe, not really.
     - ->->
 
 == the_storyless(->continuation)
@@ -283,11 +283,13 @@ Some unseen machinery whines behind the shimmering polished-steel scales of the 
     - (opts)
     <- continuation
     * (religion) [Religion]
-        The religion of The Storyless is based on a cosmology with two gods. The falser of the Gods is Bahamut who weaves the universe out of stories, and the truer God is The Storyless who is the primal and divine material from which Bahamut weaves. The cult believes that Bahamut is a corruption of the Storyless, a malevolent psychosis forming in its mind. The battle between good and evil, therefore, is the battle between story and the untold. The Cult advocates for erasure and untelling; History is a sin and all narrative is desecration. For the most orthodox of believers the story of one's own life is the most personal and shameful challenge of faith. What keeps these adepts carrying on is evangelism and the holy war against story.
+        The religion of The Storyless is based on a cosmology with two gods. The falser of the Gods is Bahamut who weaves the universe out of stories, and the truer God is The Storyless who is the primal and divine material from which Bahamut weaves. The cult believes that Bahamut is a corruption of the Storyless, a malevolent psychosis forming in its mind. The battle between good and evil, therefore, is the battle between what is told and what is untold. The Cult wages war in the name of erasure, for history is a sin and all narrative is desecration. For the most orthodox of believers the story of one's own life is the most personal and shameful challenge of faith. What keeps these adepts carrying on is evangelism and the holy war against story.
         -> opts
-    * {religion} [Adepts]
+    * {religion and religion} [Adepts]
+        Under the cruel whip of the Haala, humanity's only purpose is to become loyal and pious Adepts in service to the Untelling, soldiers in the holy war to erase all story from the world.
         -> opts
-    * {rulers or religion} [Untelling]
+    * {rulers and religion} [Untelling]
+        -> opts
     * (rulers) [Rulers]
         -> opts
         The angelic Haala rule the world under an iron theocracy. They are massive powerful creatures with surreal bodies that claim to have come from a divine dimension to consecrate our reality. Exactly when and how they came is lost, for they erased that history according to their faith in The Storyless. Already their holy war has stripped most of the world of its form and color in the violent process known as Untelling.
