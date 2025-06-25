@@ -247,9 +247,9 @@ Some unseen machinery whines behind the shimmering polished-steel scales of the 
         "How is that boy a sinner?"
         "He has always lived in a story," she says the word 'story' with dripping disdain, "desecrating the Storyless with pleasure in a false life," she continues.
         ** [The Storyless]
-            -> the_storyless(->returns)
-            -- (returns)
-            ** The future
+            -> the_storyless(->continuation)
+            --- (continuation)
+            *** Nevermind
     * [Really?]
         You shout past the woman, "So is it true boy? Are you a sinner?"
         Before he has a chance to say anything the woman pushes him behind her, "We are all sinners," she accuses.
@@ -278,17 +278,22 @@ Some unseen machinery whines behind the shimmering polished-steel scales of the 
     * Fool[], you think.
     - ->->
 
-= the_storyless(->return_choices)
-    The cult of the Storyless, the religion of the Sanctuary and of the rulers.
+== the_storyless(->continuation)
+    The Cult of the Storyless, the religion of the Sanctuary and of the rulers.
     - (opts)
-    <- return_choices
-    * [Religion]
+    <- continuation
+    * (religion) [Religion]
+        The religion of The Storyless is based on a cosmology with two gods. The falser of the Gods is Bahamut who weaves the universe out of stories, and the truer God is The Storyless who is the primal and divine material from which Bahamut weaves. The cult believes that Bahamut is a corruption of the Storyless, a malevolent psychosis forming in its mind. The battle between good and evil, therefore, is the battle between story and the untold. The Cult advocates for erasure and untelling; History is a sin and all narrative is desecration. For the most orthodox of believers the story of one's own life is the most personal and shameful challenge of faith. What keeps these adepts carrying on is evangelism and the holy war against story.
         -> opts
-    * [Rulers]
+    * {religion} [Adepts]
         -> opts
-        The angelic Haala rule the world.
+    * {rulers or religion} [Untelling]
+    * (rulers) [Rulers]
+        -> opts
+        The angelic Haala rule the world under an iron theocracy. They are massive powerful creatures with surreal bodies that claim to have come from a divine dimension to consecrate our reality. Exactly when and how they came is lost, for they erased that history according to their faith in The Storyless. Already their holy war has stripped most of the world of its form and color in the violent process known as Untelling.
     * [Sanctuary]
         -> opts
+    * -> continuation
     
 
 
