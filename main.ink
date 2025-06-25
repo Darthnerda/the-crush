@@ -279,20 +279,29 @@ Some unseen machinery whines behind the shimmering polished-steel scales of the 
     - ->->
 
 == the_storyless(->continuation)
-    The Cult of the Storyless, the religion of the Sanctuary and of the rulers.
+    The Cult of the Storyless, the religion of the Sanctuary and of the Haala.
     - (opts)
     <- continuation
+    * {untelling} [Nurmekani]
+        Nurmekani are machine-animals made of pure light. They are what come out the other side of the Animism chamber. It's never been clear even to the Adepts why the Haala do this, but it is never wise to question a Haala. From what little you've gathered, the Haala feel that Nurmekani are pure in a way a human never could be.
+        -> opts
     * (religion) [Religion]
-        The religion of The Storyless is based on a cosmology with two gods. The falser of the Gods is Bahamut who weaves the universe out of stories, and the truer God is The Storyless who is the primal and divine material from which Bahamut weaves. The cult believes that Bahamut is a corruption of the Storyless, a malevolent psychosis forming in its mind. The battle between good and evil, therefore, is the battle between what is told and what is untold. The Cult wages war in the name of erasure, for history is a sin and all narrative is desecration. For the most orthodox of believers the story of one's own life is the most personal and shameful challenge of faith. What keeps these adepts carrying on is evangelism and the holy war against story.
+        The religion of The Storyless is based on a cosmology with two gods. The falser of the Gods is Bahamut who weaves the universe out of stories, and the truer God is The Storyless who is the primal and divine material from which Bahamut weaves.
+        The cult believes that Bahamut is a corruption of the Storyless, a malevolent psychosis forming in its mind. The battle between good and evil, therefore, is the battle between what is untold and what is told.
         -> opts
-    * {religion and religion} [Adepts]
+    * {religion and rulers} [Adepts]
         Under the cruel whip of the Haala, humanity's only purpose is to become loyal and pious Adepts in service to the Untelling, soldiers in the holy war to erase all story from the world.
+        For the most orthodox of believers the story of one's own life is the most shameful challenge of faith. What keeps these adepts carrying on is the duty of the holy war.
+        Many years ago you went through the ritual of Revoking; Put on the cloak of an Adept.{once_believer: You even believed in its teachings then.}
         -> opts
-    * {rulers and religion} [Untelling]
+    * (untelling) {religion or rulers} [Untelling]
+        As history is a sin and all narrative is desecration, the Cult wages an endless war of erasure. They suppress narrativizing in every medium, but most industriously they employ a process by which they can literally erase parts of the world, leaving behind an Untold, an area of ambiguous formlessness.
+        They call this process Untelling, and even your training as an Adept hasn't revealed all of its secrets. But you do know vaguely that the Animism chamber and the Nurmekani are involved.
         -> opts
-    * (rulers) [Rulers]
+    * (rulers) [Haala]
+        The angelic Haala rule the world under an iron theocracy. They are massive powerful creatures with surreal bodies that claim to have come from a divine dimension to consecrate our reality. 
+        when and how they came is lost, for they erased that history according to their faith in The Storyless. Already their holy war has stripped most of the world of its form and color in the violent process known as Untelling.
         -> opts
-        The angelic Haala rule the world under an iron theocracy. They are massive powerful creatures with surreal bodies that claim to have come from a divine dimension to consecrate our reality. Exactly when and how they came is lost, for they erased that history according to their faith in The Storyless. Already their holy war has stripped most of the world of its form and color in the violent process known as Untelling.
     * [Sanctuary]
         -> opts
     * -> continuation
