@@ -241,8 +241,25 @@ Some unseen machinery whines behind the shimmering polished-steel scales of the 
 
 = argument
     "What is that boy doing here?" you demand.
-    The woman's gives you an affronted, scandalized look.
-    "He is a sinner!"
+    The woman's eyes bulge with anger, affronted and scandalized.
+    "He is a sinner!
+    * [Sinner how?]
+        "How is that boy a sinner?"
+        "He has always lived in a story," she says the word 'story' with dripping disdain, "desecrating the Storyless with pleasure in a false life," she continues.
+        ** [The Storyless]
+            -> the_storyless(->returns)
+            -- (returns)
+            ** The future
+    * [Really?]
+        You shout past the woman, "So is it true boy? Are you a sinner?"
+        Before he has a chance to say anything the woman pushes him behind her, "We are all sinners," she accuses.
+        ** [Not me]
+        ** [So?]
+        ** [Let him speak]
+            "Let him speak."
+            She doesn't budge. <>
+        
+    - "You desecrate us! There is no future and there is no past. The sin is in forgetting the now."
     
     
     -> END
@@ -260,6 +277,19 @@ Some unseen machinery whines behind the shimmering polished-steel scales of the 
         ~ once_believer = true
     * Fool[], you think.
     - ->->
+
+= the_storyless(->return_choices)
+    The cult of the Storyless, the religion of the Sanctuary and of the rulers.
+    - (opts)
+    <- return_choices
+    * [Religion]
+        -> opts
+    * [Rulers]
+        -> opts
+        The angelic Haala rule the world.
+    * [Sanctuary]
+        -> opts
+    
 
 
 
