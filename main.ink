@@ -4,6 +4,7 @@ LIST Dynamism = evasive, composed, bold, reckless
 
 VAR You = (calm, composed)
 VAR once_believer = false
+VAR seen_woman = false
 
 -> The_Line
 
@@ -81,6 +82,9 @@ Some unseen machinery whines behind the shimmering polished-steel scales of the 
 = wait_and_observe
     You find your inner calm, pulling your awareness back from the sensations of your body. You become the watcher watching the watcher. In that void, new insights begin to flood your awareness. Things you always should have seen are now apparent.
     - (opts)
+    {woman or child:
+        ~ seen_woman = true
+    }
     * (horribly_wrong) {child} [A child?]
         You don't understand why a child would be here in the first place. Only criminals of impiety are given the fate of animism. How could this child have earned that horror. Something has gone horribly wrong.
         -> opts
@@ -118,7 +122,7 @@ Some unseen machinery whines behind the shimmering polished-steel scales of the 
                 -> almost_there -> encounter_woman.waited
         ** [Pull him away] -> encounter_woman.kidnap
         ** {question} [Grab the woman's shoulder] -> encounter_woman.shoulder
-    * {woman or child} [Do nothing]
+    * {woman or child} [Leave them be]
         ~changeDynamismBy(You, -1, evasive, reckless)
         You let the details of the scene filter out of your awareness. You close your eyes, ready for whatever comes next. <>
         -> almost_there -> encounter_woman.waited
@@ -163,6 +167,7 @@ Some unseen machinery whines behind the shimmering polished-steel scales of the 
     -
     
     <> But no one is listening to you. The woman behind you screams in your ear, "I can't breathe!". <>
+    ~ seen_woman = true
     -> almost_there ->
     
     * [You have to press on]
@@ -210,14 +215,36 @@ Some unseen machinery whines behind the shimmering polished-steel scales of the 
     -> END
 
 = waited
-    foo
-    TODO
+    {seen_woman: The|A} woman behind you is spilling over your shoulder, a hand raised in supplication to the air.
+        "Purify me!" the woman shouts.
+        {not pure: <> -> pure -> }
+        * {once_believer} [Argue]
+            "There's nothing pure about this!"
+            The woman shakes her head vehementaly; So certain, so full of faith. <>
+        * {not once_believer} [Rebuke]
+            "Why should we die for your God!"
+            The woman shakes her head vehementaly; So certain, so full of faith. <>
+        * [Ignore]
+        
+        -
+        
+        "With every breath we walk further away from God, from the perfection of The Storyless!"
+        
+        The boy at her side is sobbing now. You cast a glance at his face. His eyes are wide, attent, fearful to the point of shaking, but his mouth hangs agape, the sobs spilling from his red face unable to resist the overwhelming distress.
+        
+        -> argument
+        
+    -> END
 
 = shoulder
     TODO
 
 = argument
-    "What is that boy doing here," you ask.
+    "What is that boy doing here?" you demand.
+    The woman's gives you an affronted, scandalized look.
+    "He is a sinner!"
+    
+    
     -> END
     TODO
 
@@ -233,3 +260,9 @@ Some unseen machinery whines behind the shimmering polished-steel scales of the 
         ~ once_believer = true
     * Fool[], you think.
     - ->->
+
+
+
+
+
+
